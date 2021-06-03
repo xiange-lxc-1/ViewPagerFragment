@@ -1,0 +1,2 @@
+因Android旧版懒加载Fragment的set和get状态函数作废了，
+此项目采用Fragment生命周期必须调用的OnResume函数作为基础用变量判断和结合pageAdapter缓存来懒加载，可大大提高程序访问速度。
